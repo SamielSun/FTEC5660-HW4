@@ -1,0 +1,12 @@
+# Never commit the API key
+.env
+
+# Never commit the virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Never commit a built index
+*.pkl

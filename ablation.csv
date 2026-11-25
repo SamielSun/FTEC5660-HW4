@@ -1,0 +1,8 @@
+variant,change,1.2,2.1,2.3,3,4,recall,kept,rejected,chunks
+B0,"naive RAG: get_text, fixed-size chunks, BM25 over everything, never []",7.0,5.0,0.0,0.0,7.0,0.17391304347826086,1.0,0.0,1050
+V1,+ table_to_text: every number keeps its row and its column,7.0,5.0,0.0,0.0,8.0,0.1956521739130435,1.0,0.0,1075
+V2,+ chunk along sections with a metadata header,7.0,5.0,8.967391304347824,0.0,15.333333333333334,0.7391304347826086,1.0,0.0,825
+V3,+ financial tokeniser and stop words,7.0,5.0,15.0,0.0,18.666666666666668,0.9782608695652174,1.0,0.0,825
+V4,+ parse_query used as a metadata filter,7.0,5.0,15.0,3.571428571428572,19.0,0.9782608695652174,1.0,0.35714285714285715,825
+V5,+ one retrieval per company for comparisons,7.0,5.0,15.0,3.571428571428572,19.333333333333332,1.0,1.0,0.35714285714285715,825
+V6,+ abstention: [] when the corpus cannot answer,7.0,5.0,15.0,7.142857142857144,19.666666666666668,1.0,1.0,0.7142857142857143,825
